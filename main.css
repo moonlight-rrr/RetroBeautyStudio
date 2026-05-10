@@ -1,0 +1,270 @@
+*
+{
+    font-family: 'Montserrat', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2
+{
+    font-family: 'Bodoni Moda', serif;
+    
+}
+
+nav {
+    background-color: #FDF2EE;
+    color: rgb(21, 21, 21);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 30px; 
+}
+
+nav a:first-of-type {
+    margin-left: auto; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #151515;
+    transition: 0.3s;
+}
+
+button {
+    background-color: #faafbc;
+    color: #FDF2EE;
+    border: 1px solid #FDF2EE;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FDF2EE;
+    border: 1px solid #faafbc;
+    color: #faafbc;
+}
+
+nav a:hover {
+    color: pink;
+}
+
+header {
+    background: url(baner.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+}
+
+.textH {
+    margin-left: 10%;
+    max-width: 600px;
+}
+
+.textH p:first-child {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.textH h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 90px; 
+    line-height: 0.9;
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+.textH p:not(.accent) {
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+
+.przyciski {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.przyciski button {
+    padding: 12px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px; 
+    transition: 0.3s;
+    border: none;
+}
+
+#niebieski {
+    background-color: transparent;
+    color: #7FAFBD;
+    border: 2px solid #7FAFBD;
+}
+
+#niebieski:hover {
+    background-color: #7FAFBD;
+    color: #fff;
+}
+
+
+#onas
+{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    background-color: #FDF2EE;
+    text-align: center;
+}
+
+#onas h2,p
+{
+    margin-bottom: 30px;
+}
+
+.text
+{
+    flex: 1;
+}
+
+.video
+{
+    flex: 1;
+}
+
+.accent
+{
+    color: #f99dad;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.accent2
+{
+    color: #f99dad;
+    font-family: 'Bodoni Moda', serif;
+}
+
+#problemy
+{
+    display: flex;
+    gap: 50px; 
+    justify-content: space-between;
+    background-color: #faafbc;
+    padding: 20px;
+}
+
+.card
+{
+    flex: 1;
+    border-radius: 20px;
+    box-shadow: 3px 8px 16px rgba(0,0,0,0.1);
+    text-align: center;
+    border: #FDF2EE;
+    background-color: #FDF2EE;
+}
+
+.pasLiczb {
+  background-color: #e0f2f7; 
+  display: flex;             
+  justify-content: space-around; 
+  padding: 40px 10px;        
+  text-align: center;        
+}
+
+.pas {
+  color: #0b749a;               
+}
+
+.komorka {
+  font-size: 32px;           
+  font-weight: bold;         
+  color: #0b749a;               
+}
+
+.pas p {
+  margin-top: 10px;          
+  font-size: 12px;      
+  text-transform: uppercase; 
+}
+
+#wpisy
+{
+    display: flex;
+    gap: 50px; 
+    justify-content: space-between;
+    background-color: #faafbc;
+    padding: 20px;
+}
+
+#wpisy img
+{
+    flex: 1;
+}
+
+.text2
+{
+    flex: 1;
+}
+
+#wpisy img
+{
+    float: left;
+}
+
+#zapis {
+  background: #fdf2f2;
+  padding: 50px 10%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.lewa img {
+  width: 180px;
+  box-shadow: 15px 15px 30px rgba(0,0,0,0.1);
+}
+
+.card {
+  padding: 40px;
+  flex: 1;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid #eee;
+  background: #FDF2EE;
+}
+
+#kontakt
+{
+    background-color:#e0f2f7 ;
+    display: flex;
+    justify-content: center;
+    gap: 240px;
+}
+
+#kontakt a
+{
+    text-decoration: none;
+    color: #0b749a;
+}
+
+.kont
+{
+    background-color:#e0f2f7 ;
+    color: #0b749a;
+}
