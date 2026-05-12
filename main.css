@@ -13,6 +13,7 @@ h1, h2
 }
 
 nav {
+    position: relative;
     background-color: #FDF2EE;
     color: rgb(21, 21, 21);
     display: flex;
@@ -129,7 +130,8 @@ header {
     text-align: center;
 }
 
-#onas h2,p
+#onas h2,
+#onas p
 {
     margin-bottom: 30px;
 }
@@ -282,6 +284,7 @@ input {
     display: none;
     font-size: 30px;
     cursor: pointer;
+}
 
 @media (max-width: 768px) 
 {
