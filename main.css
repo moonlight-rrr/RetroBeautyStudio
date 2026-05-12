@@ -270,55 +270,102 @@ input {
     color: #0b749a;
 }
 
-@media (max-width: 768px) {
+.menu
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 
-    nav {
+.burger
+{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+
+@media (max-width: 768px) 
+{
+
+    nav 
+    {
         flex-wrap: wrap;
         gap: 10px;
     }
 
-    nav a:first-of-type {
+    nav a:first-of-type 
+    {
         margin-left: 0;
     }
 
-    header {
+    header 
+    {
         height: auto;
         padding: 40px 20px;
     }
 
-    .textH h1 {
+    .textH h1 
+    {
         font-size: 40px;
     }
 
-    .przyciski {
+    .przyciski 
+    {
         flex-direction: column;
     }
 
-    #onas {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #problemy {
-        flex-direction: column;
-    }
-
-    #wpisy {
-        flex-direction: column;
-    }
-
-    #zapis {
+    #onas 
+    {
         flex-direction: column;
         text-align: center;
     }
 
-    #kontakt {
+    #problemy 
+    {
+        flex-direction: column;
+    }
+
+    #wpisy 
+    {
+        flex-direction: column;
+    }
+
+    #zapis 
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #kontakt 
+    {
         flex-direction: column;
         gap: 40px;
         text-align: center;
     }
 
-    video {
+    video 
+    {
         width: 100%;
+    }
+
+    .menu
+    {
+        display: none;
+        flex-direction:column;
+        position: absolute;
+        top: 80px;
+        right:20px;
+        background: #FDF2EE;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .menu.active
+    {
+        display: flex;
+    }
+
+    .burger
+    {
+        display: block;
     }
 }
