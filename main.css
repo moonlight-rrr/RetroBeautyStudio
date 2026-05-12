@@ -253,8 +253,9 @@ input {
 {
     background-color:#e0f2f7 ;
     display: flex;
-    justify-content: center;
-    gap: 240px;
+    justify-content: space-between;
+    gap: 40px;
+    padding:40px 10%;
 }
 
 #kontakt a
