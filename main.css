@@ -268,3 +268,56 @@ input {
     background-color:#e0f2f7 ;
     color: #0b749a;
 }
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    nav a:first-of-type {
+        margin-left: 0;
+    }
+
+    header {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .textH h1 {
+        font-size: 40px;
+    }
+
+    .przyciski {
+        flex-direction: column;
+    }
+
+    #onas {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #problemy {
+        flex-direction: column;
+    }
+
+    #wpisy {
+        flex-direction: column;
+    }
+
+    #zapis {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #kontakt {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    video {
+        width: 100%;
+    }
+}
